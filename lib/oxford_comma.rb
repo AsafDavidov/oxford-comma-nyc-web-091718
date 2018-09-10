@@ -6,6 +6,6 @@ def oxford_comma(array)
   else
     last_item = array.pop
     first_half = array.join(", ")
-    full_string = firsthalf + "and #{last_item}"
+    full_string = first_half + "and #{last_item}"
   end
 end
