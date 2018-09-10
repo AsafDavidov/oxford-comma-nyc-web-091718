@@ -6,7 +6,8 @@ def oxford_comma(array)
   else
     index = 0
     while index < array.size - 1
-      
+      first_half = array.join
+      index += 1
     end
   end
 end
